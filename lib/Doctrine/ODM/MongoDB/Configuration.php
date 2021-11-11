@@ -90,7 +90,6 @@ class Configuration
     public function __construct()
     {
         $this->proxyManagerConfiguration = new ProxyManagerConfiguration();
-        $this->setAutoGenerateProxyClasses(self::AUTOGENERATE_FILE_NOT_EXISTS);
     }
 
     /**
