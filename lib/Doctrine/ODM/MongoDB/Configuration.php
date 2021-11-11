@@ -90,6 +90,7 @@ class Configuration
     public function __construct()
     {
         $this->proxyManagerConfiguration = new ProxyManagerConfiguration();
+        
     }
 
     /**
